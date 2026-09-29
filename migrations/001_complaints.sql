@@ -1,0 +1,1 @@
+CREATE TABLE complaints (id uuid PRIMARY KEY DEFAULT gen_random_uuid(), title text NOT NULL, description text NOT NULL, location text NOT NULL, category text NOT NULL, priority text NOT NULL, department text NOT NULL, status text NOT NULL DEFAULT 'Pending', created_at timestamptz NOT NULL DEFAULT now())

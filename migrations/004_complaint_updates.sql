@@ -1,0 +1,1 @@
+CREATE TABLE complaint_updates (id uuid PRIMARY KEY DEFAULT gen_random_uuid(), complaint_id uuid NOT NULL REFERENCES complaints(id) ON DELETE CASCADE, status text NOT NULL, note text, updated_by text, created_at timestamptz NOT NULL DEFAULT now())
