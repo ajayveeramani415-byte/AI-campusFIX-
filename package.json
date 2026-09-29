@@ -1,0 +1,10 @@
+{
+  "name": "campusfix-ai",
+  "version": "1.0.0",
+  "description": "CampusFix AI - College Problem Reporting & Resolution System",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  }
+}

@@ -1,0 +1,6 @@
+[ai]
+required = true
+
+[auth]
+enabled = true
+providers = ["email"]
